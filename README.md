@@ -5,4 +5,5 @@ Created derive macros for my actix-web + async-graphql boilerplate setup. This i
 - Import via `Cargo.toml`
 ```
 [dependencies]
-rust-macros = { git = "https://github.com/enigs/rust-macros.git", version = "0.1.0" }```
+rust-macros = { git = "https://github.com/enigs/rust-macros.git", version = "0.1.0" }
+```
