@@ -1,0 +1,19 @@
+[package]
+name = "macros"
+version = "0.1.0"
+edition = "2021"
+authors = ["Mark Liwag<markhenry.liwag@gmail.com>"]
+description = "Rust macros for GL's GraphQL projects"
+
+[dependencies]
+sqlx = { version = "0.7.2", features = [ "runtime-tokio", "postgres", "chrono", "json" ] }
+
+as-form-derive = { path ="./as-form-derive", version = "0.1.0" }
+as-jsonb-derive = { path ="./as-jsonb-derive", version = "0.1.0" }
+as-table-derive = { path ="./as-table-derive", version = "0.1.0" }
+meta-data-derive = { path ="./meta-data-derive", version = "0.1.0" }
+reflective-derive = { path ="./reflective-derive", version = "0.1.0" }
+set-cipher-derive = { path ="./set-cipher-derive", version = "0.1.0" }
+set-enum-derive = { path ="./set-enum-derive", version = "0.1.0" }
+set-is-empty-derive = { path ="./set-is-empty-derive", version = "0.1.0" }
+set-mutate-derive = { path ="./set-mutate-derive", version = "0.1.0" }
